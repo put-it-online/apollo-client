@@ -1,3 +1,8 @@
+## Apollo Client 3.3.20 (unreleased)
+
+### Bug fixes
+- Expose missing field errors in results. <br/> [@brainkim](github.com/brainkim) in [#8262](https://github.com/apollographql/apollo-client/pull/8262)
+
 ## Apollo Client 3.3.19
 
 ### Bug fixes
