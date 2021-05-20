@@ -62,7 +62,7 @@ export function useBaseQuery<TData = any, TVariables = OperationVariables>(
   };
 
   const result = useDeepMemo(
-    () => (lazy ? queryData.executeLazy() : queryData.execute()),
+    () => (lazy ? queryData.executeLazy() : options.skip ? {} : queryData.execute()),
     memo
   );
 
